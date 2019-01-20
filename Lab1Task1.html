@@ -4,10 +4,13 @@
 
   <style>
        h1 {
-         display: block;
-         margin-left: auto;
-         margin-right: auto;
-         font-family: "Latha";
+         text-align: center;
+         padding-top: 20;
+         font-family: "Geneva";
+         color: black;
+       }
+       form {
+         font-family: "Geneva";
          color: black;
        }
        #webPics{
@@ -19,9 +22,10 @@
          height: 333;
        }
        #aboutHeader{
-         background-color: lightgrey;
+         background-color: #E8E9EC;
+         font-family: "Geneva";
          color: black;
-         padding: 10px;
+         padding: 10;
          text-align: center;
        }
        #teamPics{
@@ -37,14 +41,15 @@
        }
        #circleOnMapPic{
          position: absolute;
-         width:10px;
-         height:10px;
+         width:10;
+         height:10;
          border:0;
          top: 18.5%;
          left: 17%;
        }
        #aboutText{
          float: left;
+         font-family: "Geneva";
          width: 20%;
        }
        #aboutSection{
@@ -56,13 +61,15 @@
        #contactSection{
          float: center;
          width: 100%;
+         font-family: "Geneva";
          padding-bottom: 20;
          border-style: solid;
-         border-color: lightgrey;
+         border-color: #E8E9EC;
        }
        #mapSection{
          float: center;
          width: 100%;
+        font-family: "Geneva";
          padding-bottom: 20;
          border-style: none;
        }
@@ -82,37 +89,47 @@
     <h2 id="aboutHeader">Get to know the team!</h2>
 
     <div align="center">
+
       <section id = "aboutSection">
+
         <section id = "aboutText">
           <img id= "teamPics" src="Alexa.jpg" alt="Alexa">
           <h3>Alexa Astorino - 30020706</h3>
           <p>She is cool.</p>
         </section>
+
         <section id = "aboutText">
           <img id= "teamPics" src="Shreya.jpg" alt="Shreya">
           <h3>Shreya Patel - 30018897</h3>
           <p>She is the bestest.</p>
         </section>
+
         <section id = "aboutText">
           <img id= "teamPics" src="Dylan.jpg" alt="Dylan">
           <h3>Dylan Gordon - 30017484</h3>
           <p>He asks out every girl he knows when he is drunk.</p>
         </section>
+
         <section id = "aboutText">
           <img id= "teamPics" src="Antoine.jpg" alt="Antoine">
           <h3>Antoine Bizon - 30025671</h3>
           <p>He is french.</p>
         </section>
+
         <section id = "aboutText">
           <img id= "teamPics" src="Ross.jpg" alt="Ross">
           <h3>Ross Bartlett - 10145790</h3>
           <p>He is hilarious while drinking "gatorade".</p>
         </section>
+
       </section>
 
       <section id = "contactSection">
-        <h2>Contact Us!</h2>
+
+        <h2>Contact Us</h2>
+
         <form>
+
           Title:<br>
           <input type="text" name="title"><br>
           Phone:<br>
@@ -127,17 +144,24 @@
           <input type="text" name="message"><br>
           <input type="submit" value="Submit">
         </form>
+
       </section>
 
       <section id = "mapSection">
-        <hr style="border: 4px solid lightgrey;" />
+
+        <hr style="border: 4px solid E8E9EC;" />
+
         <h2>Where are we?</h2>
+
         <div id= "worldPic">
+
           <img id= "worldPic" src="WorldMap.png" alt="Map">
           <a href="http://www.calgary.ca/">
           <img id = "circleOnMapPic" src="circle.png" alt="calgary link">
           </a>
+
         </div>
+
       </section>
 
     </div>
