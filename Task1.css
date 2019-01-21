@@ -34,10 +34,10 @@ h1 {
 
 .teamPics {
 	 /*width: 250;*/
-	 height: 325;
+	 height: auto\9;
 	 max-width: 100%;
 	 padding: 5px;
-   width: auto\9; /* need the \9 to support InternetExplorer8 */
+   width: 90%; /* need the \9 to support InternetExplorer8 */
 }
 
 #aboutSection{
@@ -58,7 +58,6 @@ h1 {
  width: 100%;
  padding-bottom: 20;
  border-top: 4px solid #E8E9EC;
-
  border-bottom:  4px solid #E8E9EC;
 }
 
