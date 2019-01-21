@@ -37,7 +37,7 @@ h1 {
 	 height: 325;
 	 max-width: 100%;
 	 padding: 5px;
-     width: auto\9; /* need the \9 to support InternetExplorer8 */
+   width: auto\9; /* need the \9 to support InternetExplorer8 */
 }
 
 #aboutSection{
@@ -61,7 +61,7 @@ h1 {
 
  border-bottom:  4px solid #E8E9EC;
 }
-    
+
 #mapSection{
  float: center;
  width: 100%;
@@ -71,9 +71,6 @@ h1 {
 #worldPic{
  width: 720;
  height: 360;
-}		
-
-#worldPicDiv{
  position: relative;
 }
 
@@ -82,7 +79,6 @@ h1 {
  width:10;
  height:10;
  border:0;
- top: 19%;
- left: 31%;
+ top: 18.5%;
+ left: 17%;
 }
-
