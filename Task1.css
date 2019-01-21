@@ -6,22 +6,17 @@ body {
 }
 
 h1 {
-	 text-align: center;
-	 padding-top: 20;
+ 	 padding-top: 20;
 	 font-family: "Geneva";
 	 color: black;
 }
 
 .titleHoverArea {
 	width: 30%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .webPics{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	display: float;
 	width: 500;
 	height: 333;
 }
@@ -33,12 +28,15 @@ h1 {
 }
 
 .aboutDiv {
+	margin-top: 20;
 	border-top: 4px solid #E8E9EC;
 }
 
 .teamPics {
-	 width: 250;
+	 /*width: 250;*/
 	 height: 325;
+	 max-width: 100%;
+     width: auto\9; /* need the \9 to support InternetExplorer8 */
 }
 
 #aboutSection{
@@ -52,11 +50,12 @@ h1 {
 .aboutMember {
   float: left;
   width: 20%;
+  overflow: auto;
 }
 
 #contactSection{
- display: block;
- float: center;
+ display: inline-block;
+ align-content: center;
  width: 100%;
  padding-bottom: 20;
  border-bottom:  4px solid #E8E9EC;
