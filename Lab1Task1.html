@@ -1,130 +1,63 @@
 <html>
   <head>
-	   <title>SENG 401 Software Architecture</title>
-
-  <style>
-       h1 {
-         text-align: center;
-         padding-top: 20;
-         font-family: "Geneva";
-         color: black;
-       }
-       form {
-         font-family: "Geneva";
-         color: black;
-       }
-       #webPics{
-         display: block;
-         margin-left: auto;
-         margin-right: auto;
-         padding-bottom: 10;
-         width: 500;
-         height: 333;
-       }
-       #aboutHeader{
-         background-color: #E8E9EC;
-         font-family: "Geneva";
-         color: black;
-         padding: 10;
-         text-align: center;
-       }
-       #teamPics{
-         width: 250;
-         height: 325;
-       }
-       #worldPic{
-         width: 720;
-         height: 360;
-         position: relative;
-         top: 0;
-         left: 0;
-       }
-       #circleOnMapPic{
-         position: absolute;
-         width:10;
-         height:10;
-         border:0;
-         top: 18.5%;
-         left: 17%;
-       }
-       #aboutText{
-         float: left;
-         font-family: "Geneva";
-         width: 20%;
-       }
-       #aboutSection{
-         float: center;
-         width: 100%;
-         padding-bottom: 500;
-         border-style: none;
-       }
-       #contactSection{
-         float: center;
-         width: 100%;
-         font-family: "Geneva";
-         padding-bottom: 20;
-         border-style: solid;
-         border-color: #E8E9EC;
-       }
-       #mapSection{
-         float: center;
-         width: 100%;
-         font-family: "Geneva";
-         padding-bottom: 20;
-         border-style: none;
-       }
-    </style>
+     <title>SENG 401 Software Architecture</title>
+     <script src="Task2Dynamics.js"></script>
+     <link rel="stylesheet" type="text/css" href="Task1.css">
 
   </head>
 
-  <body style="background-color:#94B5EF;">
+  <body>
 
-    <h1> Software Architecture </h1>
+    <div class="titleHoverArea">
+     <h1> Software Architecture </h1>
+    </div>
 
-    <img id= "webPics" src="background-calm-clouds-747964.jpg" alt="Lake in the mountains">
-    <img id= "webPics" src="android-wallpaper-beach-foam-533923.jpg" alt="Beach Foam">
-    <img id= "webPics" src="blue-bubble-calamity-287229.jpg" alt="Empty Cave">
+    <img class="webPics" src="background-calm-clouds-747964.jpg" alt="Lake in the mountains"> <br>
+    <img class="webPics" src="android-wallpaper-beach-foam-533923.jpg" alt="Beach Foam"><br>
+    <img class="webPics" src="blue-bubble-calamity-287229.jpg" alt="Empty Cave"><br>
 
-
-    <h2 id="aboutHeader">Get to know the team!</h2>
+    <div class="aboutHoverArea aboutDiv">
+      <h2>Get to know the team!</h2>
+    </div>
 
     <div align="center">
 
-      <section id = "aboutSection">
+      <section id="aboutSection" >
 
-        <section id = "aboutText">
-          <img id= "teamPics" src="Alexa.jpg" alt="Alexa">
+        <div class="aboutMember">
+          <img class="teamPics" src="Alexa.jpg" alt="Alexa">
           <h3>Alexa Astorino - 30020706</h3>
-          <p>She is cool.</p>
-        </section>
+          <p>3rd year Software Engineering student. Enjoys soccer, kicboxing, music and sinigng
+          in her spare time.</p>
+        </div>
 
-        <section id = "aboutText">
-          <img id= "teamPics" src="Shreya.jpg" alt="Shreya">
+        <div class="aboutMember">
+          <img class="teamPics" src="Shreya.jpg" alt="Shreya">
           <h3>Shreya Patel - 30018897</h3>
           <p>She is the bestest.</p>
-        </section>
+        </div>
 
-        <section id = "aboutText">
-          <img id= "teamPics" src="Dylan.jpg" alt="Dylan">
+        <div class="aboutMember">
+          <img class="teamPics" src="Dylan.jpg" alt="Dylan">
           <h3>Dylan Gordon - 30017484</h3>
           <p>He asks out every girl he knows when he is drunk.</p>
-        </section>
+        </div>
 
-        <section id = "aboutText">
-          <img id= "teamPics" src="Antoine.jpg" alt="Antoine">
+        <div class="aboutMember">
+          <img class="teamPics" src="Antoine.jpg" alt="Antoine">
           <h3>Antoine Bizon - 30025671</h3>
           <p>He is french.</p>
-        </section>
+        </div>
 
-        <section id = "aboutText">
-          <img id= "teamPics" src="Ross.jpg" alt="Ross">
+        <div class="aboutMember">
+          <img class="teamPics" src="Ross.jpg" alt="Ross">
           <h3>Ross Bartlett - 10145790</h3>
           <p>He is hilarious while drinking "gatorade".</p>
-        </section>
+        </div>
 
       </section>
 
-      <section id = "contactSection">
+      <section id="contactSection" >
 
         <h2>Contact Us</h2>
 
@@ -147,13 +80,12 @@
 
       </section>
 
-      <section id = "mapSection">
+      <section id = "mapSection" >
 
-        <hr style="border: 4px solid E8E9EC;" />
 
         <h2>Where are we?</h2>
 
-        <div id= "worldPic">
+        <div id="worldPicDiv">
 
           <img id= "worldPic" src="WorldMap.png" alt="Map">
           <a href="http://www.calgary.ca/">

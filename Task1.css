@@ -1,0 +1,88 @@
+body {
+	background-color:#94B5EF;
+	font-family: "Geneva";
+    color: black;
+    text-align: center;
+}
+
+h1 {
+	 text-align: center;
+	 padding-top: 20;
+	 font-family: "Geneva";
+	 color: black;
+}
+
+.titleHoverArea {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.webPics{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500;
+	height: 333;
+}
+
+.titleHoverArea {
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutDiv {
+	border-top: 4px solid #E8E9EC;
+}
+
+.teamPics {
+	 width: 250;
+	 height: 325;
+}
+
+#aboutSection{
+     float: center;
+     width: 100%;
+     display: block;
+  /*   padding-bottom: 500;*/
+     border-bottom: 4px solid #E8E9EC;
+ }
+
+.aboutMember {
+  float: left;
+  width: 20%;
+}
+
+#contactSection{
+ display: block;
+ float: center;
+ width: 100%;
+ padding-bottom: 20;
+ border-bottom:  4px solid #E8E9EC;
+}
+    
+#mapSection{
+ float: center;
+ width: 100%;
+ padding-bottom: 20;
+}
+
+#worldPic{
+ width: 720;
+ height: 360;
+}		
+
+#worldPicDiv{
+ position: relative;
+}
+
+#circleOnMapPic{
+ position: absolute;
+ width:10;
+ height:10;
+ border:0;
+ top: 19%;
+ left: 31%;
+}
+
