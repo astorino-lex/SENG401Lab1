@@ -68,7 +68,7 @@ h1 {
  padding-bottom: 20;
 }
 
-#worldPic{
+.worldPic{
  width: 720;
  height: 360;
  position: relative;
