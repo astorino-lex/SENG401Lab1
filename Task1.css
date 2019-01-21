@@ -36,6 +36,7 @@ h1 {
 	 /*width: 250;*/
 	 height: 325;
 	 max-width: 100%;
+	 padding: 5px;
      width: auto\9; /* need the \9 to support InternetExplorer8 */
 }
 
@@ -43,12 +44,10 @@ h1 {
      float: center;
      width: 100%;
      display: block;
-  /*   padding-bottom: 500;*/
-     border-bottom: 4px solid #E8E9EC;
- }
+}
 
 .aboutMember {
-  float: left;
+	float: left;
   width: 20%;
   overflow: auto;
 }
