@@ -58,6 +58,8 @@ h1 {
  align-content: center;
  width: 100%;
  padding-bottom: 20;
+ border-top: 4px solid #E8E9EC;
+
  border-bottom:  4px solid #E8E9EC;
 }
     
