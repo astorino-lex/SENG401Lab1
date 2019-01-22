@@ -1,0 +1,89 @@
+body {
+	background-color:#94B5EF;
+	font-family: "Geneva";
+    color: black;
+    text-align: center;
+}
+
+h1 {
+ 	 padding-top: 20;
+	 font-family: "Geneva";
+	 color: black;
+}
+
+.webPics{
+	display: float;
+	width: 500;
+	height: 333;
+}
+
+.titleHoverArea {
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutDiv {
+	margin-top: 20;
+	border-top: 4px solid #E8E9EC;
+	/*dont know how to make it hover only on text, i originally cheated using a width setting
+	but cant with borders*/
+}
+
+.teamPics {
+	 height: auto\9;
+	 max-width: 100%;
+	 padding: 5px;
+     width: 90%; /* need the \9 to support InternetExplorer8 */
+}
+
+#aboutSection{
+     float: center;
+     width: 100%;
+     display: block;
+}
+
+.aboutMember {
+	float: left;
+  width: 20%;
+  overflow: hidden;
+}
+
+#contactSection{
+ display: inline-block;
+ align-content: center;
+ width: 100%;
+ padding-bottom: 20;
+ border-top: 4px solid #E8E9EC;
+ border-bottom:  4px solid #E8E9EC;
+ /*dont know how to make it hover only on text, i originally cheated using a width setting
+	but cant since already set here*/
+}
+}
+
+#mapSection{
+ float: center;
+ width: 100%;
+ padding-bottom: 20;
+}
+
+.worldPic{
+ width: 720;
+ height: 360;
+ position: relative;
+}
+
+#circleOnMapPic{
+ position: absolute;
+ width:10;
+ height:10;
+ border:0;
+ top: 18.5%;
+ left: 17%;
+}
+
+.hoverMember:hover {
+	background-color: white;
+}
+
+

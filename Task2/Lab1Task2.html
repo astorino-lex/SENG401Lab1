@@ -1,0 +1,106 @@
+<html>
+
+  <head>
+     <title>SENG 401 Software Architecture</title>
+     <script src="Task2Dynamics.js"></script>
+     <link rel="stylesheet" type="text/css" href="Task1.css">
+  </head>
+
+  <body>
+
+    <div>
+      <h3 id="toDisplay"> &nbsp;&nbsp;&nbsp; </h3>
+    </div>
+
+    <div class="titleHoverArea">
+     <h1 onmouseover="mouseOverText(this)" onmouseout="mouseOutText(this)"> Software Architecture </h1>
+    </div>
+
+    <img class="webPics" src="background-calm-clouds-747964.jpg" alt="Lake in the mountains" type="image/jpeg" onmouseover="mouseOverOther(this)" onmouseout="mouseOutOther(this)">
+    <img class="webPics" src="android-wallpaper-beach-foam-533923.jpg" alt="Beach Foam" type="image/jpeg" onmouseover="mouseOverOther(this)" onmouseout="mouseOutOther(this)">
+    <img class="webPics" src="blue-bubble-calamity-287229.jpg" alt="Empty Cave" type="image/jpeg" onmouseover="mouseOverOther(this)" onmouseout="mouseOutOther(this)">
+    <img class="webPics" src="Great-Blue-Hole-Coast-Belize_0.jpg" alt="Blue Hole" type="image/jpeg" onmouseover="mouseOverOther(this)" onmouseout="mouseOutOther(this)">
+
+    <div class="aboutDiv">
+      <h2 onmouseover="mouseOverText(this)" onmouseout="mouseOutText(this)">Get to know the team!</h2>
+    </div>
+
+    <div align="center">
+
+      <section id="aboutSection" onmouseover= "mouseOverSection(document, this)" onmouseout="mouseOutSection(document)" >
+
+        <div class="aboutMember hoverMember">
+          <img class="teamPics" src="Alexa.jpg" alt="Alexa" type="image/jpeg">
+          <h3>Alexa Astorino <br> 30020706</h3>
+          <p>3rd year Software Engineering student. Enjoys soccer, kicboxing, music and singing in her spare time. Starbucks is a necessity.</p>
+        </div>
+
+        <div class="aboutMember hoverMember">
+          <img class="teamPics" src="Shreya.jpg" alt="Shreya" type="image/jpeg">
+          <h3>Shreya Patel  <br> 30018897</h3>
+          <p>3rd year Software Engineering student. Has a passion for dance, and music. Loves to binge watch shows on Netflix. </p>
+        </div>
+
+        <div class="aboutMember hoverMember">
+          <img class="teamPics" src="Dylan.jpg" alt="Dylan" type="image/jpeg">
+          <h3>Dylan Gordon  <br> 30017484</h3>
+          <p>He asks out every girl he knows when he is drunk.</p>
+        </div>
+
+        <div class="aboutMember hoverMember">
+          <img class="teamPics" src="Antoine.jpg" alt="Antoine" type="image/jpeg">
+          <h3>Antoine Bizon  <br> 30025671</h3>
+          <p>He is french (the Quebec kind).</p>
+        </div>
+
+        <div class="aboutMember hoverMember">
+          <img class="teamPics" src="Ross.jpg" alt="Ross" type="image/jpeg">
+          <h3>Ross Bartlett  <br> 10145790</h3>
+          <p>He is hilarious while drinking "gatorade".</p>
+        </div>
+
+      </section>
+
+
+      <section id="contactSection"  onmouseover= "mouseOverSection(document, this)" onmouseout="mouseOutSection(document)">
+
+        <h2 onmouseover="mouseOverText(this)" onmouseout="mouseOutText(this)">Contact Us</h2>
+        <form action="mailto:ross.bartlett@ucalgary.ca" method="post" enctype="text/plain">
+          Title:<br>
+          <input type="text" name="title" size="35" onmouseover="mouseOverInput(this)" onmouseout="mouseOutInput(this)"><br>
+          Phone:<br>
+          <input type="text" name="phone" size="35" onmouseover="mouseOverInput(this)" onmouseout="mouseOutInput(this)"><br>
+          Email address:<br>
+          <input type="text" name="email" size="35" onmouseover="mouseOverInput(this)" onmouseout="mouseOutInput(this)"><br>
+          Date:<br>
+          <input type="text" name="date" size="35" onmouseover="mouseOverInput(this)" onmouseout="mouseOutInput(this)"><br>
+          Website:<br>
+          <input type="text" name="website" size="35" onmouseover="mouseOverInput(this)" onmouseout="mouseOutInput(this)"><br>
+          Message:<br>
+          <input type="text" name="message" size="35" onmouseover="mouseOverInput(this)" onmouseout="mouseOutInput(this)"><br>
+          <input type="submit" value="Submit" onmouseover="mouseOverInput(this)" onmouseout="mouseOutInput(this)">
+        </form>
+
+      </section>
+
+      <section id = "mapSection"  onmouseover= "mouseOverSection(document, this)" onmouseout="mouseOutSection(document)">
+
+
+        <h2 onmouseover="mouseOverText(this)" onmouseout="mouseOutText(this)">Where are we?</h2>
+
+        <div class="worldPic">
+
+          <img class= "worldPic" src="WorldMap.png" alt="Map" onmouseover="mouseOverOther(this)" onmouseout="mouseOutOther(this)">
+          <a href="http://www.calgary.ca/" target="_blank">
+          <img id = "circleOnMapPic" src="circle.png" alt="calgary link" onmouseover="mouseOverCircle(this)" onmouseout="mouseOutCircle(this)">
+          </a>
+
+        </div>
+
+      </section>
+
+    </div>
+
+  </body>
+
+</html>
