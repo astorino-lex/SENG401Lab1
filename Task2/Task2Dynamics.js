@@ -23,11 +23,11 @@ function mouseOutInput(x) {
 }
 
 function mouseOverCircle(x) {
-	x.src = "circleyellow.png";
+	x.src = "../res/circleyellow.png";
 }
 
 function mouseOutCircle(x) {
-	x.src= "circle.png"
+	x.src= "../res/circle.png"
 }
 
 function mouseOverSection(x, y) {

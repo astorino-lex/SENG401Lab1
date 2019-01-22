@@ -18,7 +18,7 @@ h1 {
 }
 
 .titleHoverArea {
-	width: 25%;
+	width: 30%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -86,4 +86,7 @@ h1 {
 	background-color: white;
 }
 
-
+input[type="submit"]:hover {
+	border: none;
+    background-color: cyan;
+}
