@@ -38,13 +38,13 @@ h1 {
 }
 
 #aboutSection{
-     float: center;
-     width: 100%;
-     display: block;
+	float: center;
+	width: 100%;
+	display: block;
 }
 
 .aboutMember {
-	float: left;
+float: left;
   width: 20%;
   overflow: hidden;
 }
@@ -59,10 +59,10 @@ h1 {
  /*dont know how to make it hover only on text, i originally cheated using a width setting
 	but cant since already set here*/
 }
-}
+
 
 #mapSection{
- float: center;
+ float: left;
  width: 100%;
  padding-bottom: 20;
 }
@@ -71,6 +71,7 @@ h1 {
  width: 720;
  height: 360;
  position: relative;
+ display: inline-block;
 }
 
 #circleOnMapPic{
@@ -81,6 +82,15 @@ h1 {
  top: 18.5%;
  left: 17%;
 }
+
+#calgaryInfo{
+	text-align: left;
+	display: inline-block;
+	position: absolute;
+	margin-top: 8%;
+	visibility: hidden;
+}
+
 
 .hoverMember:hover {
 	background-color: white;

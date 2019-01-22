@@ -24,10 +24,13 @@ function mouseOutInput(x) {
 
 function mouseOverCircle(x) {
 	x.src = "../res/circleyellow.png";
+	document.getElementById("calgaryInfo").style.visibility = 'visible';
 }
 
 function mouseOutCircle(x) {
 	x.src= "../res/circle.png"
+	document.getElementById("calgaryInfo").style.visibility = 'hidden';
+
 }
 
 function mouseOverSection(x, y) {
