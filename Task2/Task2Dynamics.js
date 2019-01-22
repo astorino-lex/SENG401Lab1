@@ -33,10 +33,10 @@ function mouseOutCircle(x) {
 
 }
 
-function mouseOverSection(x, y) {
-	x.querySelector("#toDisplay").innerHTML = y.id;
+function mouseOverSection(x) {
+	document.querySelector("#toDisplay").innerHTML = x.id;
 }
 
-function mouseOutSection(x) {
-	x.querySelector("#toDisplay").innerHTML = "&nbsp;&nbsp;&nbsp;";
+function mouseOutSection() {
+	document.querySelector("#toDisplay").innerHTML = "&nbsp;&nbsp;&nbsp;";
 }

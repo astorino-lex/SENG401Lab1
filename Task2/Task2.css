@@ -98,5 +98,6 @@ float: left;
 
 input[type="submit"]:hover {
 	border: none;
-    background-color: cyan;
+    background-color: #004475;
+    color: white;
 }
