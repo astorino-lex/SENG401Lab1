@@ -1,11 +1,9 @@
 function mouseOverText(x) {
 	x.style.color = "white";
-	document.getElementById("toDisplay").innerHTML = "TEST";
 }
 
 function mouseOutText(x) {
 	x.style.color = "black";
-	document.getElementById("toDisplay").innerHTML = "&nbsp;&nbsp;&nbsp;";
 }
 
 function mouseOverOther(x) {
