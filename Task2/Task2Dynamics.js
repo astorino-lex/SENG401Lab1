@@ -22,19 +22,13 @@ function mouseOutInput(x) {
 	x.style.border = "2px solid #94B5EF";
 }
 
-/*
-//repalced by displayCityInfo()
-function mouseOverCircle(x, cityA) {
-	x.src = "../res/circleyellow.png";
-	for (c in cityofCalgary){
-		document.getElementById("calgaryInfo").innerHTML += "<li>" + cityofCalgary[c] + "</li>";
+function mouseOutCircle(x, city) {
+	if (city == "cgy"){
+		x.src= "../res/circle.png"
 	}
-}
-*/
-
-
-function mouseOutCircle(x) {
-	x.src= "../res/circle.png"
+	else{
+		x.src= "../res/circleblue.png"
+	}
 	document.getElementById("cityInfo").style.visibility = 'hidden';
 }
 

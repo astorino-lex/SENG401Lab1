@@ -36,7 +36,7 @@ h1 {
 	 height: auto\9;
 	 max-width: 100%;
 	 padding: 5px;
-     width: 90%; /* need the \9 to support InternetExplorer8 */
+  	width: 90%; /* need the \9 to support InternetExplorer8 */
 }
 
 #aboutSection{
@@ -46,7 +46,7 @@ h1 {
 }
 
 .aboutMember {
-float: left;
+	float: left;
   width: 20%;
   overflow: hidden;
 }
@@ -75,13 +75,22 @@ float: left;
  border: 2px solid #94B5EF;
 }
 
-#circleOnMapPic{
+#circleOnMapPicCalgary{
  position: absolute;
- width:10;
- height:10;
+ width:5;
+ height:5;
  border:0;
  top: 19.5%;
  left: 17%;
+}
+
+#circleOnMapPicEdmonton{
+ position: absolute;
+ width:5;
+ height:5;
+ border:0;
+ top: 18.5%;
+ left: 17.2%;
 }
 
 #cityInfo{
