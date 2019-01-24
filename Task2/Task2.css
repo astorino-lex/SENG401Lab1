@@ -15,6 +15,7 @@ h1 {
 	display: float;
 	width: 500;
 	height: 333;
+	border: 2px solid #94B5EF;
 }
 
 .titleHoverArea {
@@ -26,8 +27,6 @@ h1 {
 .aboutDiv {
 	margin-top: 20;
 	border-top: 4px solid #E8E9EC;
-	/*dont know how to make it hover only on text, i originally cheated using a width setting
-	but cant with borders*/
 }
 
 .teamPics {
@@ -56,8 +55,6 @@ float: left;
  padding-bottom: 20;
  border-top: 4px solid #E8E9EC;
  border-bottom:  4px solid #E8E9EC;
- /*dont know how to make it hover only on text, i originally cheated using a width setting
-	but cant since already set here*/
 }
 
 
@@ -72,6 +69,7 @@ float: left;
  height: 360;
  position: relative;
  display: inline-block;
+ border: 2px solid #94B5EF;
 }
 
 #circleOnMapPic{
@@ -83,17 +81,23 @@ float: left;
  left: 17%;
 }
 
-#calgaryInfo{
+.cityInfo{
 	text-align: left;
 	display: inline-block;
 	position: absolute;
-	margin-top: 8%;
 	visibility: hidden;
 }
 
+.cityListFormat {
+	list-style-type: none;
+}
 
 .hoverMember:hover {
 	background-color: white;
+}
+
+.hoverText:hover {
+	color: white;
 }
 
 input[type="submit"]:hover {
