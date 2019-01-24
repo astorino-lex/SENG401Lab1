@@ -22,14 +22,17 @@ function mouseOutInput(x) {
 	x.style.border = "2px solid #94B5EF";
 }
 
+/*
+//replaced by displayCityInfo()
 function mouseOverCircle(x) {
 	x.src = "../res/circleyellow.png";
 	document.getElementById("calgaryInfo").style.visibility = 'visible';
 }
+*/
 
 function mouseOutCircle(x) {
 	x.src= "../res/circle.png"
-	document.getElementById("calgaryInfo").style.visibility = 'hidden';
+	document.getElementById("cityInfo").style.visibility = 'hidden';
 
 }
 
@@ -40,3 +43,41 @@ function mouseOverSection(x) {
 function mouseOutSection() {
 	document.querySelector("#toDisplay").innerHTML = "&nbsp;&nbsp;&nbsp;";
 }
+
+
+function displayCityInfo(img, cityA){
+	img.src = "../res/circleyellow.png";
+
+	document.getElementById("cityInfo").style.visibility = 'visible';
+
+	var city = (cityA == "cgy")? cgy : edm;
+
+	document.getElementById("cityname").innerHTML = 'Name: '+city.name;
+	document.getElementById("citylat").innerHTML = 'Latitude: '+city.latitude;
+	document.getElementById("citylong").innerHTML = 'Longitude: '+city.longitude;
+	document.getElementById("citypop").innerHTML = 'Population: '+city.population;
+	document.getElementById("cityarea").innerHTML = 'Area: '+city.area+' km'+'2'.sup();
+	document.getElementById("citydensity").innerHTML = 'Density: '+city.density().toFixed(2)+' persons/km'+'2'.sup(); // 2 decimal places
+}
+
+var cgy = {
+	name: "Calgary",
+	latitude : 51.0486,
+	longitude : -114.0708,
+	population: 1096833,
+	area: 825.29,
+	density : function() {
+	  return this.population/this.area;
+	}
+};
+
+var edm = {
+	name: "Edmonton",
+	latitude : 53.5444,
+	longitude : - 113.4909,
+	population: 960015,
+	area:  684.37,
+	density : function() {
+		return this.population/this.area;
+	}
+};

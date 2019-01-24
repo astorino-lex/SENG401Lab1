@@ -81,14 +81,14 @@ float: left;
  left: 17%;
 }
 
-.cityInfo{
+#cityInfo{
 	text-align: left;
 	display: inline-block;
 	position: absolute;
 	visibility: hidden;
 }
 
-.cityListFormat {
+#cityListFormat {
 	list-style-type: none;
 }
 
