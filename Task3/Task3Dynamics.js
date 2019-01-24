@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-	$(":header").hover(function(){
+	$("h1, h2").hover(function(){
       $(this).css("color", "white");
     },
     function(){
