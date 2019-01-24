@@ -90,14 +90,19 @@
         <div class="worldPic">
           <img class= "worldPic" src="../res/WorldMap.png" alt="Map" onmouseover="mouseOverOther(this)" onmouseout="mouseOutOther(this)">
           <a href="http://www.calgary.ca/" target="_blank">
-          <img id = "circleOnMapPic" src="../res/circle.png" alt="calgary link" onmouseover="mouseOverCircle(this)" onmouseout="mouseOutCircle(this)">
+            <img id = "circleOnMapPic" src="../res/circle.png" alt="calgary link" onmouseover="displayCityInfo(this,'cgy')" onmouseout="mouseOutCircle(this)">
           </a>
         </div>
 
 
-        <div class="cityInfo" >
-          <ul class="cityListFormat" id="calgaryInfo">
-            
+        <div id="cityInfo" >
+          <ul id="cityListFormat">
+            <li id='cityname'></li>
+            <li id='citylat'></li>
+            <li id='citylong'></li>
+            <li id='citypop'></li>
+            <li id='cityarea'></li>
+            <li id='citydensity'></li>
           </ul>
         </div>
 

@@ -79,17 +79,17 @@ float: left;
  width:10;
  height:10;
  border:0;
- top: 18.5%;
+ top: 19.5%;
  left: 17%;
 }
 
-.cityInfo{
+#cityInfo{
 	text-align: left;
 	display: inline-block;
 	position: absolute;
 }
 
-.cityListFormat {
+#cityListFormat {
 	list-style-type: none;
 }
 
