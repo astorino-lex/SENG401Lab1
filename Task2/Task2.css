@@ -113,7 +113,7 @@ h1 {
 }
 
 input[type="submit"]:hover {
-	border: none;
+	border-color: #004475;
     background-color: #004475;
     color: white;
 }
