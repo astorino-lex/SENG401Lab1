@@ -1,13 +1,15 @@
+@import url("https://use.typekit.net/jos4tzk.css");
+
 body {
 	background-color:#94B5EF;
-	font-family: "Geneva";
+	font-family: mr-eaves-modern;
     color: black;
     text-align: center;
 }
 
 h1 {
  	 padding-top: 20;
-	 font-family: "Geneva";
+	 font-family: mr-eaves-modern;
 	 color: black;
 }
 
@@ -85,7 +87,6 @@ float: left;
 	text-align: left;
 	display: inline-block;
 	position: absolute;
-	visibility: hidden;
 }
 
 .cityListFormat {
