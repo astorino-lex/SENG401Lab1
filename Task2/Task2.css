@@ -4,7 +4,8 @@ body {
 	background-color:#94B5EF;
 	font-family: mr-eaves-modern;
     color: black;
-    text-align: center;
+	text-align: center;
+	font-size: 18;
 }
 
 h1 {
@@ -87,6 +88,7 @@ float: left;
 	text-align: left;
 	display: inline-block;
 	position: absolute;
+	font-size: 20;
 }
 
 #cityListFormat {
