@@ -1,0 +1,120 @@
+<html>
+
+  <head>
+     <title>SENG 401 Software Architecture</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="Task3Dynamics.js"></script>
+     <link rel="stylesheet" type="text/css" href="Task3.css">
+  </head>
+
+  <body>
+
+    <div>
+      <h3 id="toDisplay"> &nbsp;&nbsp;&nbsp; </h3>
+    </div>
+
+    <div class="titleHoverArea">
+     <h1> Software Architecture </h1>
+    </div>
+
+    <img class="webPics" src="../res/clouds.jpg" alt="Lake in the mountains" type="image/jpeg">
+    <img class="webPics" src="../res/beach.jpg" alt="Beach Foam" type="image/jpeg">
+    <img class="webPics" src="../res/bubble.jpg" alt="Empty Cave" type="image/jpeg">
+    <img class="webPics" src="../res/hole.jpg" alt="Blue Hole" type="image/jpeg">
+
+    <div class="aboutDiv">
+      <h2>Get to know the team!</h2>
+    </div>
+
+    <div align="center">
+
+      <section id="aboutSection">
+
+        <div class="aboutMember hoverMember">
+          <img class="teamPics" src="../res/Alexa.jpg" alt="Alexa" type="image/jpeg">
+          <h3>Alexa Astorino <br> 30020706</h3>
+          <p>3rd year Software Engineering student. Enjoys soccer, kicboxing, music and singing in her spare time. Starbucks is a necessity.</p>
+        </div>
+
+        <div class="aboutMember hoverMember">
+          <img class="teamPics" src="../res/Shreya.jpg" alt="Shreya" type="image/jpeg">
+          <h3>Shreya Patel  <br> 30018897</h3>
+          <p>3rd year Software Engineering student. Has a passion for dance, and music. Loves to binge watch shows on Netflix. </p>
+        </div>
+
+        <div class="aboutMember hoverMember">
+          <img class="teamPics" src="../res/Dylan.jpg" alt="Dylan" type="image/jpeg">
+          <h3>Dylan Gordon  <br> 30017484</h3>
+          <p>3rd year Software Engineering student. Enjoys soccer, hiking, music and listening to others sing. Tims is a necessity.</p>
+        </div>
+
+        <div class="aboutMember hoverMember">
+          <img class="teamPics" src="../res/Antoine.jpg" alt="Antoine" type="image/jpeg">
+          <h3>Antoine Bizon  <br> 30025671</h3>
+          <p>3rd year Software Engineering student. Enjoys memes, going to the mountains, and Netflix.</p>
+        </div>
+
+        <div class="aboutMember hoverMember">
+          <img class="teamPics" src="../res/Ross.jpg" alt="Ross" type="image/jpeg">
+          <h3>Ross Bartlett  <br> 10145790</h3>
+          <p>3rd year Software Engineering student. Enjoys playing guitar, watching hockey, and competing in hackathons.</p>
+        </div>
+
+      </section>
+
+
+      <section id="contactSection">
+
+        <h2>Contact Us</h2>
+        <form action="mailto:ross.bartlett@ucalgary.ca" method="post" enctype="text/plain">
+          Title:<br>
+          <input type="text" name="title" size="35"><br>
+          Phone:<br>
+          <input type="text" name="phone" size="35"><br>
+          Email address:<br>
+          <input type="text" name="email" size="35"><br>
+          Date:<br>
+          <input type="text" name="date" size="35"><br>
+          Website:<br>
+          <input type="text" name="website" size="35"><br>
+          Message:<br>
+          <input type="text" name="message" size="35"><br>
+          <input type="submit" value="Submit">
+        </form>
+
+      </section>
+
+      <section id = "mapSection">
+
+        <h2>Where are we?</h2>
+
+        <div class="worldPicDiv">
+          <img id= "worldPicImage" src="../res/WorldMap.png" alt="Map" >
+          <a href="http://www.calgary.ca/" target="_blank">
+            <img class="cityCircle" id = "circleOnMapPicCalgary" src="../res/circle.png" alt="calgary link" >
+          </a>
+          <a href="https://www.edmonton.ca/" target="_blank">
+            <img class="cityCircle" id = "circleOnMapPicEdmonton" src="../res/circleblue.png" alt="edmonton link" >
+          </a>
+        </div>
+
+
+        <div id="cityInfo" >
+          <ul id="cityListFormat">
+            <li id='cityname'></li>
+            <li id='citylat'></li>
+            <li id='citylong'></li>
+            <li id='citypop'></li>
+            <li id='cityarea'></li>
+            <li id='citydensity'></li>
+          </ul>
+        </div>
+
+
+      </section>
+
+    </div>
+
+  </body>
+
+</html>

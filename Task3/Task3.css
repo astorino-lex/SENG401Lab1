@@ -1,0 +1,120 @@
+@import url("https://use.typekit.net/jos4tzk.css"); /* import the font*/
+
+body {
+	background-color:#94B5EF;
+	font-family: mr-eaves-modern;
+    color: black;
+	text-align: center;
+	font-size: 18;
+}
+
+h1 {
+ 	 padding-top: 20;
+	 font-family: mr-eaves-modern;
+	 color: black;
+}
+
+.webPics{
+	display: float;
+	width: 500;
+	height: 333;
+	border: 2px solid #94B5EF;
+}
+
+.titleHoverArea {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutDiv {
+	margin-top: 20;
+	border-top: 4px solid #E8E9EC;
+}
+
+.teamPics {
+	 height: auto\9;
+	 max-width: 100%;
+	 padding: 5px;
+  	width: 90%; /* need the \9 to support InternetExplorer8 */
+}
+
+#aboutSection{
+	float: center;
+	width: 100%;
+	display: block;
+}
+
+.aboutMember {
+	float: left;
+  width: 20%;
+  overflow: hidden;
+}
+
+#contactSection{
+ display: inline-block;
+ align-content: center;
+ width: 100%;
+ padding-bottom: 20;
+ border-top: 4px solid #E8E9EC;
+ border-bottom:  4px solid #E8E9EC;
+}
+
+
+#mapSection{
+ float: left;
+ width: 100%;
+ padding-bottom: 20;
+}
+
+.worldPicDiv{
+ position: relative;
+ display: inline-block;
+}
+
+#worldPicImage{
+	width: 720;
+	height: 360;
+	position: relative;
+	display: inline-block;
+	border: 2px solid #94B5EF;
+}
+
+.cityCircle{
+	position: absolute;
+	width:5;
+	height:5;
+	border:0;
+}
+
+#circleOnMapPicCalgary{
+ top: 20.5%;
+ left: 17%;
+}
+
+#circleOnMapPicEdmonton{
+ top: 18.5%;
+ left: 17.2%;
+}
+
+#cityInfo{
+	text-align: left;
+	display: inline-block;
+	position: absolute;
+	font-size: 20;
+}
+
+#cityListFormat {
+	list-style-type: none;
+}
+
+.hoverMember:hover {
+	background-color: white;
+}
+
+
+input[type="submit"]:hover {
+	border: none;
+    background-color: #004475;
+    color: white;
+}
