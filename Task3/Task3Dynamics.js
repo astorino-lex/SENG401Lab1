@@ -15,7 +15,7 @@ $(document).ready(function(){
 		$(this).css("border", "2px solid #94B5EF");
 	});
 
-	$(":text").hover(function(){ 
+	$(":text").hover(function(){
 		//select the input text boxes
 		$(this).css("border", "2px solid black");
 	  },
@@ -23,10 +23,10 @@ $(document).ready(function(){
 		$(this).css("border", "2px solid #94B5EF");
 	});
 
-	$("#circleOnMapPicCalgary").hover(function(){ 
+	$("#circleOnMapPicCalgary").hover(function(){
 		$("#worldPicImage").css("border", "2px solid white");
 		$(this).attr("src","../res/circleyellow.png");
-		$("#cityInfo").show()
+		$("#cityInfo").show();
 		displayCityInfo(this,'cgy');
 	  },
 	  function(){
@@ -34,7 +34,7 @@ $(document).ready(function(){
 		$("#cityInfo").hide();
 	});
 
-	$("#circleOnMapPicEdmonton").hover(function(){ 
+	$("#circleOnMapPicEdmonton").hover(function(){
 		$("#worldPicImage").css("border", "2px solid white");
 		$(this).attr("src","../res/circleyellow.png");
 		$("#cityInfo").show();
@@ -45,7 +45,7 @@ $(document).ready(function(){
 		$("#cityInfo").hide();
 	});
 
-	$("section").hover(function(){ 
+	$("section").hover(function(){
 		$("#toDisplay").html(this.id);
 	  },
 	  function(){
